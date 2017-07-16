@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>assignment1</title>
+    <meta name="author" content="Mark">
+    <meta name="generator" content="iA Writer for Mac 1.3">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <style type="text/css">
+      body { color: #222; font: normal normal 400 100%/1.5em georgia,serif; margin: 3em auto; max-width: 40em }
+      a:link { color: #3366CC }
+      a:visited { color: #224488 }
+      blockquote,ol,p,ul { display: block; margin: 0 0 1.5em 0 }
+	  strong { margin: 0em }
+      blockquote { border-left: solid .1em #E4E4E4; color: #919191; padding: 0 1.5em 0 1.4em }
+      code { font: normal normal 87.5%/1.71428571em monospace,sans-serif }
+      img { display: block; margin: 1.5em auto }
+      pre { display: block; font: normal normal 87.5%/1.71428571em monospace,sans-serif; margin: 1.71428571em }
+      h1,h2,h3,h4,h5,h6 { font-weight: 400; font-family: Helvetica, Arial, sans-serif; }
+      h1 { font-size: 180%; line-height: 1.3334em; margin: 0 0 1em; text-align: center }
+      h2 { font-size: 140%; line-height: 1.28571429em; margin: 2em 0 1em 0; padding: 0 0 0.2em; text-align: center; border-bottom: 1px solid #ccc; }
+      h3 { font-size: 120%; line-height: 1.3636em; margin: 0 0 .5em }
+      h4,h5,h6 { font-size: 110%; line-height: 1.3334em; margin: 0 0 0.2em }
+	  h6 { font-size: 100%; font-family: Georgia, serif; font-weight: 600 }
+      ol,ul { list-style-position: outside; padding: 0 }
+      ol ol,ol ul,ul ol,ul ul { margin: 0 0 .75em 2em }
+      table { border-collapse: collapse; margin: 1.5em 0; width: 100% }
+      td,th { border: solid .1em #000; font-family: sans-serif; font-size: 87.5%; line-height: 1.71428571em; text-align: center }
+    </style>
+  </head>
+  <body>
+    <h1>Informatics 2C - Software Engineering Assignment 1: <a href="https://github.com/Xuzz/newsyc" title="">news:yc</a></h1>
+	<p>My fork of the project: <a href="https://github.com/mrknmc/newsyc">https://github.com/mrknmc/newsyc</a></p>
+<h2>Question 1</h2>
+<h4>About the project</h4>
+<p>My project is an iOS application for reading <a href="http://news.ycombinator.com/">Hacker News</a>. Hacker News is a social news website about computer hacking and startup companies, run by Y Combinator.</p>
+<p>The application gives the user options to display the current top and new submissions, his or her profile, to search all submissions and to save articles for reading later with <a href="http://www.instapaper.com/">Instapaper</a>.</p>
+<p>I picked this project because as its daily user it is in my own interest that it gets better. I have been using the application for a long time and I have missed some functionality. I am already quite familiar with working on a project in Java and I have really wanted to learn programming for iOS.</p>
+<h4>Platform</h4>
+<p>I built the project on Mac OS X Mountain Lion with Xcode 4.5.1. The project is making use of some frameworks, libraries and APIs (listed below). The only library it uses is libxml2 which I already had on my disk and the APIs were already included in the source code so I did not have any trouble making a build.</p>
+<h4>Frameworks, Libraries &amp; APIs</h4>
+<ul><li><a href="http://stig.github.com/json-framework/" title="">SBJson</a> - A strict Json parser and generator for Objective-C.
+</li><li><a href="http://www.xmlsoft.org" title="">libxml2</a> - Software library for parsing XML documents.
+</li><li><a href="http://api.ihackernews.com" title="">Hacker News API</a> - An unofficial API for Hacker News.
+</li><li><a href="http://www.instapaper.com/api" title="">Instapaper API</a> - Allows third-party applications to add URLs to Instapaper.
+</li><li><a href="http://developer.apple.com/library/ios/#documentation/MessageUI/Reference/MessageUI_Framework_Reference/_index.html" title="">MessageUI Framework</a> - Contains interfaces to add message delivery capabilities without requiring the user to leave the application.
+</li><li><a href="http://developer.apple.com/library/mac/#documentation/graphicsimaging/reference/QuartzCoreRefCollection/_index.html" title="">QuartzCore Framework</a> - Supports image processing and video image manipulation.
+</li><li><a href="https://developer.apple.com/library/mac/#documentation/Carbon/Reference/CoreText_Framework_Ref/_index.html" title="">CoreText Framework</a> - Interface for laying out text and handling fonts.
+</li><li><a href="http://developer.apple.com/library/ios/#documentation/uikit/reference/UIKit_Framework/_index.html" title="">UIKit Framework</a> - Provides the classes needed to construct and manage application’s user interface.
+</li><li><a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/ObjC_classic/Intro/IntroFoundation.html" title="">Foundation Framework</a> - Defines a base layer of Objective-C classes.
+</li><li><a href="http://developer.apple.com/library/ios/#documentation/coregraphics/reference/coregraphics_framework/_index.html" title="">CoreGraphics Framework</a> - Provides low-level, lightweight 2D rendering.
+</li></ul><h4>Evidence of running the project</h4>
+<p>I took screenshots of the application running on the iPhone simulator. To prove that I was able to build the project, I put my name and matriculation number in the navigation bar.</p>
+<p><img src="img1.png" alt="Evidence 1" width="100%" height ="100%" /></p>
+<p><img src="img2.png" alt="Evidence 2" width="100%" height ="100%" /></p>
+<h2>Question 2</h2>
+<h4>Organisation of files</h4>
+<p>Each class has two files. A header file visible to the public containing the interface where you declare methods and instance variables with .h extension and an implementation file that contains executable code for each method declared in the interface with .m extension. Classes have instance variables and methods just like in Java. Instead of implementing an interface, they conform to protocols.</p>
+<p>There are also categories, which extend and customise behaviour of a class without subclassing it. Categories can add methods to a class but they can't add variables.</p>
+<p>The project file, called newsyc.xcodeproj should never be accessed directly but configured from Xcode. There you can set up build settings, configure which devices you want to support, what frameworks a project uses, which files you want to hide from version control and so on.</p>
+<p>There is an Info.plist file that describes the project. It lists its properties, such as development language, application version and supported device orientations.</p>
+<p>Other than that there are 2 main directories which contain the source code: Resources and Classes.</p>
+<h6>Resources directory</strong></h6>
+<ul><li>Contains various resources such as images, icons, constant strings and settings that are included in iOS's Settings app.
+</li><li>Each image has to be included in two resolutions. Once for retina devices and once for non-retina devices.
+</li>
+</ul><h6>Classes directory</h6>
+<ul><li>Contains multiple subdirectories, namely Experimental, Json, Categories, XML, HNKit, Instapaper, Views, Cells, Controllers and the AppDelegate and main.m files.
+</li><li>Experimental - Contains functionality which might be implemented some time in the future.
+</li><li>Json - Contains the SBJson framework. These classes are mostly used to parse data sent from the server. It also contains a category NSString+SBJSON which allows to represent each string as a Json object.
+</li><li>Categories - Objective-C Categories (files that extend capabilities of standard 	Objective-C classes so there is no need to subclass them).
+</li><li>XML - Contains classes XMLDocument and XMLElement which use the libxml2 library. These are used to represent XML data.
+</li><li>HNKit - Classes such as HNSubmission, HNSession and HNAPIRequest that communicate with the Hacker News API.
+</li><li>Instapaper - Classes that authenticate and later submit URLs to the Instapaper API.
+</li><li>Views - Graphical user interface classes representing buttons, indicators and other views.
+</li><li>Cells - Subclasses of UITableViewCell. These are used to display different information inside lists (also called table views).
+</li><li>Controllers - Classes that control the flow of the app. This directory has five subdirectories which are described in higher detail below.
+</li><li>AppDelegate - Class that interacts with the operating system.
+</li><li>main.m - As far as I can tell, the only purpose of this file is to pass the control of the application to the AppDelegate class.
+</li></ul><h6>Controllers directory is further split into 5 more subdirectories</h6>
+<ul><li>Containers - Container controllers contain multiple children controllers and enable the user to view hierarchical content. For example, NavigationController or MainTabController.
+</li><li>Data - Controllers such as EntryListController and CommentListController that display data like submissions and comments.
+</li><li>Compose - This directory contains controllers that enable the user to compose and submit content.
+</li><li>Login - These are the controllers that enable the user to login into their Hacker News and Instapaper accounts.
+</li><li>Tabs - Contains controllers that are the children of the aforementioned container controllers such as MainTabController.
+</li></ul></li></ul>
+<h4>Languages</h4>
+<p>The whole project is written in Objective-C. There are, however some .plist files which use XML. The application fetches data wrapped in Json and XML files from the server and then parses them.</p>
+<h4>Classes containing the key functionality of the system</h4>
+<p>I think the most essential files are in HNKit. Classes in this directory fetch and parse the data from the server (HNAPIRequest, HNAPIRequestParser), store that data (HNEntryList, HNEntry), enable searching the submissions database (HNAPISearch), control the session (HNSession) and enable user authentication (HNSessionAuthenticator).</p>
+<p>Also very important is the AppDelegate class. Its purpose is to interact with the operating system. It also conforms to multiple protocols such as UINavigationControllerDelegate, UITabBarControllerDelegate and therefore takes care of moving within the application hierarchy. Additionaly, it detects whether the device is an iPhone or an iPad and loads the appropriate controllers.</p>
+<h4>Classes that control the user interface</h4>
+<p>Classes inside the Controllers directory control the user interface. They receive user inputs from touchscreen and load views from the Views directory with relevant information from HNEntryList and other classes in HNKit directory.</p>
+<p>The main controllers are EntryListContainer, SessionProfileController, SearchController and MoreController which are contained in MainTabController</p>
+<h2>Question 3</h2>
+<h4>Contributions that might be useful to the project</h4>
+<p>Firstly, I think the application would benefit from implementing infinite scrolling as tapping the 'load more' cell every time a user reaches the bottom of the list is inconvenient. This is the feature I will focus on the most. I think implementing this would require a method call that checks if the user is at the bottom of the list whenever the user finishes scrolling. I think it should be within my capabilities to do this.</p>
+<p>Secondly, it would be useful if there was a way to jump from the submissions list straight to the linked article provided there is one. There is already a <a href="https://github.com/Xuzz/newsyc/pull/80" title="">request</a> for this feature on GitHub. However, I do not think double tap is a standard way to do this. I think I could implement this with a gesture such as a swipe to the right on the submission.</p>
+<p>Thirdly, there is an interesting <a href="https://github.com/Xuzz/newsyc/issues/86" title="">bug</a> submitted on GitHub. So far I have not found what the issue might be, but I would like to fix it.</p>
+<p>Another good <a href="https://github.com/Xuzz/newsyc/issues/78" title="">idea</a> from the Github issues requests is to mark read articles. I think implementing this might involve storing IDs of read articles in some sort of cache or perhaps the iCloud. I think I might be able to implement the solution with cache.</p>
+<p>Moreover, at this time the project has no documentation. However, I would rather do something more creative than that.</p>
+<p>In the future, I think the project could make use of storyboards and/or .xib files to simplify the design of the user interface but that might be just my opinion. This would involve rewriting a big portion of the application so I do not think I will attempt to do this.</p>
+<p>Additionally, string constants are often written directly in the code. I think moving them to an XML file and then accessing them by some key would be much more practical. This would also help if at some point in the future someone decides to localise the application into more languages.</p>
+  </body>
+</html>

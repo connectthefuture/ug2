@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>assignment2v1</title>
+    <meta name="author" content="Mark">
+    <meta name="generator" content="iA Writer for Mac 1.3">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <style type="text/css">
+      body { color: #222; font: normal normal 400 100%/1.5em georgia,serif; margin: 3em auto; max-width: 40em }
+      a:link { color: #3366CC }
+      a:visited { color: #224488 }
+      blockquote,ol,p,ul { display: block; margin: 0 0 1.5em 0 }
+    strong { margin: 0em }
+      blockquote { border-left: solid .1em #E4E4E4; color: #919191; padding: 0 1.5em 0 1.4em }
+      code { font: normal normal 87.5%/1.71428571em monospace,sans-serif }
+      img { display: block; margin: 1.5em auto }
+      pre { display: block; font: normal normal 87.5%/1.71428571em monospace,sans-serif; margin: 1.71428571em }
+      h1,h2,h3,h4,h5,h6 { font-weight: 400; font-family: Helvetica, Arial, sans-serif; }
+      h1 { font-size: 180%; line-height: 1.3334em; margin: 0 0 1em; text-align: center }
+      h2 { font-size: 140%; line-height: 1.28571429em; margin: 2em 0 1em 0; padding: 0 0 0.2em; text-align: center; border-bottom: 1px solid #ccc; }
+      h3 { font-size: 120%; line-height: 1.3636em; margin: 0 0 .5em }
+      h4,h5,h6 { font-size: 110%; line-height: 1.3334em; margin: 0 0 0.2em }
+    h6 { font-size: 100%; font-family: Georgia, serif; font-weight: 600 }
+      ol,ul { list-style-position: outside; padding: 0 }
+      ol ol,ol ul,ul ol,ul ul { margin: 0 0 .75em 2em }
+      table { border-collapse: collapse; margin: 1.5em 0; width: 100% }
+      td,th { border: solid .1em #000; font-family: sans-serif; font-size: 87.5%; line-height: 1.71428571em; text-align: center }
+    </style>
+  </head>
+  <body>
+    <h1>Assignment 2</h1>
+<p>I have implemented two features for the project <a href="https://github.com/Xuzz/newsyc" title="">news:yc</a>. I attached all the relevant files I have modified or created. Every method I modified has a comment to explain what is its purpose. The first feature is for both iPhones and iPads whereas the second one is only for iPhones since I don't have an iPad to test it on. The video demonstration of features I have implemented is hosted on <a href="https://vimeo.com/53085147" title="">Vimeo</a>.</p>
+<h2>Feature 1 - Infinite Scrolling</h2>
+<p>Firstly, I implemented infinite scrolling for reading the news. This proved not to be too difficult as the functionality to load more news was already implemented with a button click.</p>
+<p>Initially, I thought I would check whether the user has reached the last cell of the table every time he scrolls and request more news if he did. I wrote code for this and submitted a <a href="https://github.com/mrknmc/newsyc/commit/6632cbf4cb121e3748d77441b6327727e60a9821" title="">pull request</a>.</p>
+<p>However, the author of the project told me that there is a more efficient way to do it: request more news when the method for drawing the last cell is called. This is done by overriding the method <em>(void)tableView:willDisplayCell:forRowAtIndexPath:</em> as seen in the file <a href="EntryListController.m">EntryListController.m</a>.</p>
+<p>I <a href="https://github.com/mrknmc/newsyc/commit/6cd3cd12a835289e591b6e8316bdc91c121e23b3" title="">revised</a> the code and submitted a new <a href="https://github.com/Xuzz/newsyc/pull/87" title="">pull request</a>. This time the author of the project merged it to the master branch.</p>
+<h2>Feature 2 - UIActivityViewController</h2>
+<p>Secondly, I contacted the project author via e-mail, to ask what he thinks would be a useful feature to implement.</p>
+<p>He replied that I could try to implement <em>UIActivityViewController</em> to make offering of different sharing services in the application easier. However, he said that as this class is only available on devices with the newest iOS6, it should not affect how sharing for older devices works.</p>
+<p>To be able to do this I had to do a small research into how <a href="http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIActivity_Class/Reference/Reference.html" title="">UIActivity</a> and <a href="http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIActivityViewController_Class/Reference/Reference.html#//apple_ref/occ/cl/UIActivityViewController" title="">UIActivityViewController</a> work. After reading the reference and few tutorials on the internet I worked out a way of implementing this. The operating system offers an automatic way to share to some default services like Twitter, iMessage and Mail. Therefore I only had to create a subclass of <em>UIActivity</em> for <a href="http://www.instapaper.com" title="">Instapaper</a>. The interface and implementation of this class reside in InstapaperActivity <a href="InstapaperActivity.h">.h</a> and <a href="InstapaperActivity.m">.m</a> files, respectively. Additionally I had to write the method <em>(UIActivityViewController *)submitURL:</em> that returns a ViewController that enables the user to log in to his Instapaper account. This method is just a copy of <em>(void)submitURL:fromController:</em> with one minor adjustment and resides in <a href="InstapaperController.m">InstapaperController.m</a>. Lastly, I had to modify the method <em>(void)actionTapped</em> in <a href="LoadingController.m">LoadingController.m</a> to display the <em>UIActivityViewController</em> for iPhones with iOS6 and <em>UIActionSheet</em> for other devices.</p>
+<p>I submitted a new <a href="https://github.com/Xuzz/newsyc/pull/89" title="">pull request</a> that the author accepted. He later refactored the code to make it work on an iPad as well but the project still makes use of the code I wrote.</p>
+
+  </body>
+</html>

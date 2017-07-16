@@ -1,0 +1,1065 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"j",
+				"j.m	java.math."
+			],
+			[
+				"count",
+				"count"
+			],
+			[
+				"for",
+				"fore	for (each)"
+			],
+			[
+				"discou",
+				"discount"
+			],
+			[
+				"testPureSymbol",
+				"testPureSymbolF1"
+			],
+			[
+				"f1",
+				"f1"
+			],
+			[
+				"flip",
+				"flipSymbol"
+			],
+			[
+				"falsi",
+				"falsifiesClause"
+			],
+			[
+				"satis",
+				"satisfiesLiteral"
+			],
+			[
+				"satisf",
+				"satisfiesFormula"
+			],
+			[
+				"sat",
+				"satisfiesClause"
+			],
+			[
+				"id",
+				"id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "matcher/Queue.java",
+			"settings":
+			{
+				"buffer_size": 982,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "matcher/NaiveMatcher.java",
+			"settings":
+			{
+				"buffer_size": 938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "matcher/Main.java",
+			"settings":
+			{
+				"buffer_size": 358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/usr/local/bin/javacr.sh",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "matcher.sublime-project",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Java/JavaC.sublime-build",
+	"command_palette":
+	{
+		"height": 137.0,
+		"selected_items":
+		[
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"eclipe",
+				"Eclipse: Format Java"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"eclipse",
+				"Eclipse: Format Java"
+			],
+			[
+				"eclips",
+				"Eclipse: Format Java"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"codeintel",
+				"SublimeCodeIntel: Enable Plugin"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Snippet: java.beans."
+			],
+			[
+				"sublimecode",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"sublimelint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"import",
+				"Snippet: import"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"repl hask",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"binding",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"key bind",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"haskell",
+				"Set Syntax: Haskell"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"syntaxpro",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 117.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Mark/.bash_profile",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/Mark/Projects/uni/2b_cw1/matcher.sublime-project",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Mark/Projects/Uni/inf2b_cw1/matcher/Queue.java",
+		"/Users/Mark/Projects/Uni/inf2b_cw1/matcher.sublime-project",
+		"/Users/Mark/Projects/Uni/inf2b_cw1/matcher/NaiveKMPMatcher.java",
+		"/Users/Mark/Projects/Uni/inf2d_cw1/Assignment.hs",
+		"/Users/Mark/Projects/Uni/inf2d_cw1/test.sh",
+		"/Users/Mark/Projects/Uni/inf2d_cw1/test.txt",
+		"/Users/Mark/Projects/Uni/inf2d_cw1_bak/Makefile",
+		"/Users/Mark/Projects/shop/PriceDiscount.java",
+		"/Users/Mark/Projects/shop/NumberDiscount.java",
+		"/Users/Mark/Projects/shop/Discount.java",
+		"/Users/Mark/Projects/shop/Item.java",
+		"/Users/Mark/Projects/shop/Main.java",
+		"/Users/Mark/Projects/Uni/inf2d_cw1/Assignment_bak.hs",
+		"/Users/Mark/Downloads/facebook-user-style-master/facebook.css",
+		"/Users/Mark/Downloads/blongo/blog/settings.py",
+		"/Users/Mark/Downloads/maid-master/lib/maid/tools.rb",
+		"/Users/Mark/Projects/Django/bkt/bkt/settings.py",
+		"/Users/Mark/Projects/inf2d_cw1/Assignment.hs",
+		"/Users/Mark/Projects/inf2d_cw1/Assignment_bak.hs",
+		"/Users/Mark/Projects/inf2d_cw1/Prop.hs",
+		"/Users/Mark/Projects/inf2d_cw1/Test.hs",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Default (OSX).sublime-mousemap",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/JSLint/JSLint.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/Tag/Tag Package.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/Tag Package.sublime-settings",
+		"/Users/Mark/Projects/inf2d_cw1/untitled.sublime-project",
+		"/Users/Mark/Projects/inf2d_cw1/untitled.sublime-workspace",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/README.md",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/Mark/Downloads/SearchBot_results_for_ artificial intelligence.txt",
+		"/Users/Mark/Downloads/txt.txt",
+		"/Users/Mark/Projects/Checksplit/Checksplit/Checksplit-Prefix.pch",
+		"/Users/Mark/.gitconfig",
+		"/Volumes/R2-D2/Users/Mark/Music/iTunes/iTunes Music Library.xml",
+		"/Users/Mark/copy.py",
+		"/Users/Mark/this.xml",
+		"/Users/Mark/.path",
+		"/Users/Mark/.slate",
+		"/Users/Mark/Projects/Checksplit/.git/COMMIT_EDITMSG",
+		"/Users/Mark/Projects/Checksplit/Checksplit/PeoplePositions.plist",
+		"/Applications/Pixelmator.app/Contents/Info.plist",
+		"/Users/Mark/.osx",
+		"/Users/Mark/clean",
+		"/Library/Python/2.7/site-packages/README",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/Users/Mark/Projects/Checksplit/Checksplit/MainViewController.m",
+		"/Users/Mark/Downloads/Tweetbot.For.Mac.v1.0.1.[k]-CNC/cnc.nfo",
+		"/Users/Mark/.ssh/id_rsa.pub",
+		"/Users/Mark/.bash_prompt",
+		"/Users/Mark/.bash_pro",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/User/Side Bar.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/Mark/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/Mark/.aliases",
+		"/Users/Mark/.exports",
+		"/Users/Mark/.pearrc",
+		"/Volumes/R2-D2/Users/Mark/.slate",
+		"/etc/shells",
+		"/Users/Mark/.brew",
+		"/Users/Mark/.bashrc",
+		"/Users/Mark/.CFUserTextEncoding",
+		"/Users/Mark/.inputrc",
+		"/Users/Mark/.wgetrc",
+		"/Users/Mark/.hushlogin",
+		"/Users/Mark/.hgignore",
+		"/Users/Mark/.gvimrc",
+		"/Users/Mark/.gitattributes",
+		"/Users/Mark/.functions"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Walksat",
+			"d",
+			"newCount",
+			";",
+			"firstatom",
+			"bracket",
+			"alt",
+			"\"alt\"",
+			"alt",
+			"\"modifiers\": [\"alt\"]",
+			"choice $ head nodes",
+			"unsat",
+			"as",
+			"f",
+			"a",
+			"m",
+			"f",
+			"c",
+			"m",
+			"find",
+			"m",
+			"exist",
+			"19719",
+			"5747",
+			"320",
+			"160",
+			"UI",
+			"defaults write -g \"com.apple.sound.beep.feedback\" -int 0",
+			"80",
+			"# # "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"WalkSat",
+			" !important;",
+			"!important",
+			"316",
+			"164",
+			"# "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "matcher/Queue.java",
+					"settings":
+					{
+						"buffer_size": 982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_live_disabled_languages":
+							[
+								"Java"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "matcher/NaiveMatcher.java",
+					"settings":
+					{
+						"buffer_size": 938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								684
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "matcher/Main.java",
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/usr/local/bin/javacr.sh",
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "matcher.sublime-project",
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ass",
+				"Assignment.hs"
+			],
+			[
+				"assi",
+				"Assignment.hs"
+			],
+			[
+				"",
+				"Assignment_bak.hs"
+			],
+			[
+				"asss",
+				"Assignment.hs"
+			],
+			[
+				"prop",
+				"Prop.hs"
+			],
+			[
+				"test",
+				"Test.hs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true
+}

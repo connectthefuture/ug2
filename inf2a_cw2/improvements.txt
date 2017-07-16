@@ -1,0 +1,10 @@
+Things that shouldn't work but work:
+- Who like ducks?
+- Who are ducks John likes?
+- Who is an orange orange orange orange orange orange orange duck?
+
+Things that I would like to implement:
+- John likes ducks
+
+Also I think that if Mary is a duck and John likes Mary doesn't neccessarily mean that John likes ducks.
+

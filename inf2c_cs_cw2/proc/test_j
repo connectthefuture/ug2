@@ -1,0 +1,35 @@
+Memory test file for j
+
+No dependencies on other instructions
+
+The program should end with:
+PC = 0x18
+R1 = 0
+
+
+00: j 0x8
+    6'h2 : 26'h2
+    0000 10:00 0 0 0 0 0 2
+%08000002
+
+04: j 0x14
+    6'h2 : 26'h5
+    0000 10:00 0 0 0 0 0 5
+%08000005
+
+08: j 0x4
+    6'h2 : 26'h1
+    0000 10:00 0 0 0 0 0 1
+%08000001
+
+0c: halt
+
+%0000000c
+
+10: .word 0
+%00000000
+
+14: halt
+
+%0000000c
+

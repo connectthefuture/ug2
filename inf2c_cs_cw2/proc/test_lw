@@ -1,0 +1,29 @@
+Memory test file for lw
+
+Using $0 as the base, so no dependencies on other instructions.
+
+The program should end with:
+PC = 0x08 
+R1 = 0xab5b5aab
+
+00: lw $1, 0x10($0)
+    6'h23 : 5'0 : 5'1 : 16'h10
+    1000 11:00 000:0 0001: 0000 0000 0000 0010
+%8c010010
+
+04: halt
+%0000000c
+
+08: .word 0x0
+%00000000
+
+0c: .word 0xffffffff
+%ffffffff
+
+10: .word 0xab5b5aab
+%ab5b5aab
+
+14: .word 0xffff0000
+%ffff0000
+
+

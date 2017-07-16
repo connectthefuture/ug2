@@ -1,0 +1,2 @@
+div :: Integer -> Integer -> Integer ;
+div m n = if m<n then 0 else 1 + div (m-n) n ;

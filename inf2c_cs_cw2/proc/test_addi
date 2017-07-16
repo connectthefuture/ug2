@@ -1,0 +1,19 @@
+Memory test file for addi
+
+The program should end with:
+PC = 0x0c
+R1 = 0xffffbc8e
+
+00: addi $2, $0, 0xbc7a
+    6'h8 : 5'0 : 5'2 : 16'hbc7a
+    0010 00:00 000:0 0010: b c 7 a
+%2002bc7a
+
+04: addi $1, $2, 0x14
+    6'h8 : 5'2 : 5'1 : 16'hbc7a
+    0010 00:00 010:0 0001: 0 0 1 4
+%20410014
+
+08: halt
+%0000000c
+
